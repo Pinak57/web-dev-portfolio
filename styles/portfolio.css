@@ -1,0 +1,53 @@
+/* header section */
+header{
+    height: 800px;
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left , right bottom;
+}
+header nav{
+    margin: 40px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+nav h1{
+    font-size:xx-large;
+    font-weight: 800px;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin-left: 40px;
+    font-size: larger;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.primary-colour{
+    color:#474747
+}
+.primary-button{
+    background-color: orange;
+    color: white;
+    font-size: larger;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ;
+}
+.primary-button:hover{
+    background-color: greenyellow;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    margin-left: 150px;
+}
+.banner-img{
+    padding-top: 35px;
+}
