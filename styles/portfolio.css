@@ -157,3 +157,19 @@ main{
     border-radius: 20px;
     margin: 20px 120px;
 }
+
+/* footer-section */
+.footer-section{
+    background-color: #dcebf0;
+}
+
+.connect-message{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 100px;
+}
+
+.connect{
+    margin-left: 80px;
+    margin-top: 20px;
+}
