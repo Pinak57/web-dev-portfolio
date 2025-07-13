@@ -1,6 +1,6 @@
 /* header section */
 header{
-    background-color: #FFF8F3;
+    background-color: #eddacc;
     height: 575px;
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
@@ -58,3 +58,65 @@ nav ul li a{
     /* align-items: center; */
 }
 /* main part */  
+main{
+    margin: 40px 80px;
+}
+.about-me-section{
+    background-color: rgb(230, 236, 223);
+    text-align: center;
+    padding: 40px 100px ;
+}
+.about-me-sec{
+    background-color: #eddacc;
+}
+.about-me{
+    display: flex;
+    justify-content: space-around;
+}
+/* doing section */
+.doing-section{
+    background-color: #f1eae5;
+    text-align: center;
+}
+.skils{
+    display: flex;
+    text-align: left;
+    gap: 40px;
+    padding: 20px 10px;
+}
+.js{
+    background-color: #dcebf0;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.5s;
+}
+.js:hover{
+    background-color: rgb(91, 225, 225);
+}
+.react{
+    background-color: #dcebf0;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.5s;
+}
+.react:hover{
+    background-color: palevioletred;
+}
+.nodejs{
+    background-color: #dcebf0;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.5s;
+}
+.nodejs:hover{
+    background-color: rgb(97, 97, 228);
+}
+.mongo{
+    background-color: #dcebf0;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.5s;
+}
+.mongo:hover{
+    background-color: rgb(180, 239, 92);
+}
